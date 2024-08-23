@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio id="birthdayMusic" src="birthday-song.mp3"></audio>
+    <div class="birthdayCard" onclick="playMusic()">
+      <div class="cardFront">
+        <h3 class="happy">HAPPY BIRTHDAY</h3>
+        <div class="balloons">
+          <div class="balloon-1"></div>
+          <div class="balloon-2"></div>
+          <div class="balloon-3"></div>
+          <div class="balloon-4"></div>
+        </div>
+      </div>
+      <div class="cardInside">
+        <h3 class="back">HAPPY BIRTHDAY</h3>
+        <p id="message">Happy Birthday, Seno!</p>
+        <p>
+            This day is as special as you are to me. 
+            From our first date to this very moment, you've filled my life with love, joy, and countless memories. 
+            I can't wait to create even more with you.
+        </p>
+        <p class="name">With ❤️</p>
+        <a href="https://www.Google.com" target="_blank" class="openWebsiteButton">Surprise</a>
+      </div>
+    </div>
+    <button id="musicToggleButton" class="musicToggleButton" onclick="toggleMusic()">Stop Music</button>
+    <div class="confetti"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
